@@ -5,7 +5,16 @@ public class Resource {
 	private int hours;
 	private int cpus;
 	private float price;
+	private String region;
 	
+	
+	
+	public String getRegion() {
+		return region;
+	}
+	public void setRegion(String region) {
+		this.region = region;
+	}
 	public int getHours() {
 		return hours;
 	}
